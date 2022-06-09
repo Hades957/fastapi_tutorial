@@ -8,7 +8,7 @@ app03 = APIRouter()
 
 @app03.get("/path/parameters")
 async def path_params01():
-    return {"message": "This is a message"}
+    return {"message": "This is a messagetesttest zbifeng !!!"}
 
 
 # 函数的顺序就是路由的顺序
